@@ -9,7 +9,7 @@ const Header =({title})=>{
 }
 
 Header.defaultProps ={
-    title: 'Survey: XXXXXX',
+    title: 'Survey: Cancer',
 }
 
 Header.prototypes={

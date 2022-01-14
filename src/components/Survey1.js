@@ -6,13 +6,13 @@ import Plot from 'react-plotly.js';
 //import createPlotlyComponent from 'react-plotly.js/factory';
 import createPlotlyRenderers from 'react-pivottable/PlotlyRenderers';
 import axios from 'axios';
-import Header2 from './Header2';
-import Questions2 from './Questions2';
+import Header1 from './Header1';
+import Questions1 from './Questions1';
 
 const PlotlyRenderers = createPlotlyRenderers(Plot);
 
 
-class Survey2 extends React.Component {
+class Survey1 extends React.Component {
 
     constructor(props) {
         super(props);
@@ -24,7 +24,7 @@ class Survey2 extends React.Component {
 
     componentDidMount(){
 
-      axios.get('http://localhost:8080/answer/getAllAnswersWithPatientIdBySurveyId2/2')
+      axios.get('http://localhost:8080/answer/getAllAnswersWithPatientIdBySurveyId/1')
       .then( res=> {
         console.log(res);
         console.log(res.data);
@@ -42,9 +42,9 @@ class Survey2 extends React.Component {
       let data= this.state.data
         return (
           <div className="container">
-            <Header2 />
+            <Header1 />
             <div className="scroll_container">
-              <Questions2 />
+              <Questions1 />
             </div>
 
           
@@ -60,4 +60,4 @@ class Survey2 extends React.Component {
     }
 }
 
-export default Survey2
+export default Survey1
