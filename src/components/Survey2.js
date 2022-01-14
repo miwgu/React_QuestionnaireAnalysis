@@ -6,11 +6,10 @@ import Plot from 'react-plotly.js';
 //import createPlotlyComponent from 'react-plotly.js/factory';
 import createPlotlyRenderers from 'react-pivottable/PlotlyRenderers';
 import axios from 'axios';
-import Header from './components/Header';
-import Questions from './components/Questions';
+import Header from './Header';
+import Questions from './Questions';
 
-//Test
-import Survey2 from './components/Survey2';
+
 
 
 // create Plotly React component via dependency injection
@@ -22,7 +21,7 @@ const PlotlyRenderers = createPlotlyRenderers(Plot);
 // see documentation for supported input formats
 //const data = [['attribute', 'attribute2'], ['value1', 'value2']];
 
-class App extends React.Component {
+class Survey2 extends React.Component {
 
     constructor(props) {
         super(props);
@@ -33,9 +32,8 @@ class App extends React.Component {
 
 
     componentDidMount(){
-      axios.get('http://localhost:8080/answer/getAllAnswersWithPatientIdBySurveyId/1')
-      //axios.get('http://localhost:8080/answer/answerBySurveyId/1')
-      //axios.get('https://pivottable.js.org/examples/mps.json')
+
+      axios.get('http://localhost:8080/answer/getAllAnswersWithPatientIdBySurveyId2/2')
       .then( res=> {
         console.log(res);
         console.log(res.data);
@@ -66,14 +64,9 @@ class App extends React.Component {
                 {...this.state}
             />
 
-           {/* test */}
-
-            <Survey2 />
-            
             </div>
         );
     }
 }
 
-export default App
-//ReactDOM.render(<App />, document.body);
+export default Survey2

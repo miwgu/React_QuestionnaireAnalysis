@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 15px auto;
+  overflow: auto;
+  min-height: 450px;
+  padding: 30px;
+  border-radius:5px;
+}
+
+.scroll_container{
+  max-width: 1000px;
+  margin: 15px auto;
+  overflow: auto;
+  min-height: 100px;
+  border: 1px solid steelblue;
+ background-color:azure;
+  padding: 20px;
+  border-radius:5px;
+
+}
