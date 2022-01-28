@@ -51,7 +51,7 @@ const Questions=() => {
     return(
         <Scrollbars >
             {questions.map((question)=>(
-                <p key={question.id}>{'Q'}{question.id-5}{': '}{question.text}</p>
+                <p key={question.id}>{'Question'}{question.id-5}{': '}{question.text}</p>
             ))}
             </Scrollbars>
     )
