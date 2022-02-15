@@ -10,8 +10,8 @@ function Psoriasis_1() {
     <Tabs>
     <TabList>
       <Tab>Om Psoriasis</Tab>
-      <Tab>Psoriasis (grundläggande)</Tab>
-      <Tab>3</Tab>
+      <Tab>Psoriasis -Grundläggande</Tab>
+      <Tab>Psoriasis -Svårighetsgrad</Tab>
     </TabList>
 
     <TabPanel>

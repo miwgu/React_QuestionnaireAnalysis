@@ -48,7 +48,8 @@ class Survey2 extends React.Component {
             </div>
 
           
-            <PivotTableUI
+            <PivotTableUI 
+                style={{maxWidth: false}}
                 data={data}
                 onChange={s => this.setState(s)}
                 renderers={Object.assign({}, TableRenderers, PlotlyRenderers)}

@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
   <div className='home' style={{ 
-    backgroundImage: `linear-gradient(45deg, #F2F2F4, #CECEE2)` 
+    backgroundImage: `linear-gradient(45deg, #F2F2F4, #bebed9)` 
   }} >
    <div class='box'>
         <div class='wave -one'></div>

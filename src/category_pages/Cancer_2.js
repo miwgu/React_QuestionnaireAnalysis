@@ -10,7 +10,7 @@ function Cancer_2() {
     <TabList>
       <Tab>Om Cancer</Tab>
       <Tab>Cancer</Tab>
-      <Tab>3</Tab>
+      <Tab>Bröstcancer</Tab>
     </TabList>
 
     <TabPanel>

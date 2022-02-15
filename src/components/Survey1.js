@@ -47,14 +47,15 @@ class Survey1 extends React.Component {
               <Questions1 />
             </div>
 
-            <div className="container">
+            
             <PivotTableUI
+                style={{maxWidth: false}}
                 data={data}
                 onChange={s => this.setState(s)}
                 renderers={Object.assign({}, TableRenderers, PlotlyRenderers)}
                 {...this.state}
             />
-            </div>
+          
             </div>
         );
     }
