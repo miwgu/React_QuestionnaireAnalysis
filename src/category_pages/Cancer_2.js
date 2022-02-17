@@ -20,6 +20,7 @@ function Cancer_2() {
         <Survey2 /> 
     </TabPanel>
     <TabPanel>
+        <p>xxxxxx</p>
     </TabPanel>
 
   </Tabs>

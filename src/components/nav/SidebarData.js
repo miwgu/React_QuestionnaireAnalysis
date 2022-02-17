@@ -37,8 +37,8 @@ export const SidebarData =[
         cName: 'nav-text'
     },
     {
-        title: 'Support',
-        path: '/support',
+        title: 'Hjälp',
+        path: '/help',
         icon:<BiIcons.BiSupport />,
         cName: 'nav-text'
     },
